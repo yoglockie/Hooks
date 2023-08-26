@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from "@mui/material/Button";
 
-export default function Hook() {
+export default function Counterr() {
     const [count,setcount]=useState(0);
     function Incre() {
         setcount(count+1)
